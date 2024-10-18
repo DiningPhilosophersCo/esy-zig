@@ -1,0 +1,8 @@
+{
+  "esy": {
+    "build": "which zig"
+  },
+  "dependencies": {
+    "esy-zig": "*"
+  }
+}

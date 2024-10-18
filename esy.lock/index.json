@@ -1,0 +1,15 @@
+{
+  "checksum": "0cc961f41dbf4ff5ab5654751a4ba36e",
+  "root": "esy-gn@link-dev:./esy.json",
+  "node": {
+    "esy-gn@link-dev:./esy.json": {
+      "id": "esy-gn@link-dev:./esy.json",
+      "name": "esy-gn",
+      "version": "link-dev:./esy.json",
+      "source": { "type": "link-dev", "path": ".", "manifest": "esy.json" },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}

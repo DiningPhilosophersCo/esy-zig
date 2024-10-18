@@ -1,0 +1,12 @@
+{
+  "name": "esy-zig",
+  "version": "0.14.0",
+  "description": "Zig packaged for esy",
+  "source": "git+https://github.com/ziglang/zig.git#master",
+  "override": {
+    "buildsInSource": true,
+    "build": ["cc -o bootstrap bootstrap.c", "./bootstrap"],
+    "install": ["cp #{self.target_dir}/zig2 #{self.bin}/zig"],
+    "dependencies": {}
+  }
+}
